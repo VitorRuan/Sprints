@@ -1,6 +1,6 @@
 <span id="topo">
 
-<h1 align="center">Sprint 2: 15/05/2024 a 10/06/2024</h1>
+<h1 align="center">Sprint 2: 15/05/2024 a 28/05/2024</h1>
 
 <p align="center">
     <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
@@ -13,38 +13,34 @@ Nesta segunda sprint, nosso foco está na implementação das funcionalidades es
     
 ## :dart: Objetivos da Sprint
 Implementar as funcionalidades essenciais de gerenciamento de registros de professores no sistema:
-- **RF 01:** Salvar Registro
-- **RF 02:** Ler Registro
-- **RF 03:** Atualizar Registro
-- **RF 04:** Deletar Registro
+- **RF 05:** Cadastro de Disciplinas
+- **RF 06:** Atribuição de Disciplinas
+- **RF 07:** Cadastro de Cursos
+- **RF 08:** Atribuição de Cursos
 - **RNF 01:** Utilizar Javascript e Typescript
 - **RNF 02:** Utilizar banco de dados NoSql (MongoDB)
-- **RNF 03:** Autenticação
+- **RNF 04:** Autenticação
 
 <span id="entregas">
         
 ## :heavy_check_mark: Entregas
-Durante esta sprint, nossa equipe trabalhou em estreita colaboração para desenvolver e integrar as interfaces de usuário necessárias, garantir a validação adequada dos dados inseridos, e implementar a lógica de armazenamento e recuperação de registros no banco de dados. Cada membro da equipe desempenhou um papel vital na consecução dessas entregas, contribuindo com sua experiência e habilidades para alcançar os objetivos estabelecidos.
+As entregas desta sprint estabelecem as bases para uma gestão eficaz de disciplinas e cursos, permitindo que a equipe administrativa mantenha um controle preciso e atualizado dos dados acadêmicos. A integração dessas funcionalidades no sistema não apenas melhora a eficiência administrativa, mas também assegura que os registros acadêmicos sejam gerenciados de forma organizada e acessível. 
 
-### RF 01: Salvar Registro
+### RF 05: Cadastro de Disciplinas
 
-A funcionalidade de salvar registro permite que novos registros de professores sejam inseridos no sistema. Isso envolve a coleta de informações pertinentes sobre o professor, como nome, sobrenome, disciplinas lecionadas, entre outras, e armazenamento desses dados no banco de dados do sistema.
-Essa funcionalidade é fundamental para o sistema, pois permite que novos professores sejam cadastrados e adicionados ao banco de dados, permitindo que a equipe administrativa mantenha um registro completo e atualizado de todos os professores da instituição.
+O cadastro de disciplinas envolve a inclusão de novas disciplinas no sistema. Isso inclui a coleta de informações relevantes sobre a disciplina, como nome, código, descrição, carga horária, entre outros, e o armazenamento desses dados no banco de dados do sistema.É essencial para manter um registro organizado e completo das disciplinas oferecidas pela instituição educacional. Isso permite que a equipe administrativa gerencie eficientemente o currículo acadêmico, atribua disciplinas a professores, e mantenha informações atualizadas sobre cada disciplina.
 
-### RF 02: Ler Registro 
+### RF 06: Atribuição de Disciplinas
 
-A funcionalidade de ler registro permite que os usuários visualizem os registros existentes de professores no sistema. Isso envolve recuperar os dados armazenados no banco de dados e apresentá-los de forma clara e legível para o usuário, geralmente por meio de uma interface de usuário amigável.
-Essa funcionalidade é crucial para a consulta rápida e eficiente das informações dos professores. Permite que a equipe administrativa acesse os detalhes de um professor específico ou visualize uma lista completa de todos os professores cadastrados no sistema.
+A atribuição de disciplinas envolve a associação de disciplinas específicas a professores. Isso permite que os professores saibam quais disciplinas eles estão responsáveis por lecionar.É crucial para garantir que cada disciplina seja adequadamente distribuída entre os professores, evitando sobrecargas ou lacunas no currículo.
 
-### RF 03: Atualizar Registro 
+### RF 07: Cadastro de Cursos
 
-A funcionalidade de atualizar registro permite que informações existentes sobre um professor sejam modificadas ou atualizadas conforme necessário. Isso inclui a disponibilização de formulários de edição para que os usuários possam fazer alterações nos dados existentes e a atualização dessas informações no banco de dados.
-Essa funcionalidade é importante para garantir que os registros de professores sejam precisos e atualizados. Permite que a equipe administrativa corrija erros, atualize informações desatualizadas ou faça ajustes conforme necessário, mantendo a integridade dos dados do sistema.
+O cadastro de cursos envolve a inclusão de novos cursos no sistema. Isso inclui a coleta de informações sobre o curso, como nome, código, descrição, duração, pré-requisitos, entre outros, e o armazenamento desses dados no banco de dados do sistema. É fundamental para organizar e gerenciar a oferta educacional da instituição. Permite que a equipe administrativa acompanhe todos os cursos disponíveis e mantenha informações atualizadas sobre cada curso oferecido.
 
-### RF 04: Deletar Registro
+### RF 08: Atribuição de Cursos
 
-A funcionalidade de deletar registro permite que registros de professores sejam removidos do sistema. Isso envolve a identificação do registro a ser excluído, a confirmação da exclusão pelo usuário e a remoção dos dados correspondentes do banco de dados.
-Essa funcionalidade é essencial para manter a precisão e a relevância dos dados do sistema. Permite que a equipe administrativa remova registros desnecessários ou obsoletos, mantendo o banco de dados organizado e atualizado.
+A atribuição de cursos envolve a associação de cursos específicos a professores. Isso permite que os professores saibam quais cursos eles estão responsáveis por lecionar. É importante para garantir que cada curso seja adequadamente distribuído entre os professores.
 
 ### RNF 01: Utilizar Javascript e Typescript
 
@@ -54,7 +50,7 @@ Este requisito não funcional estabelece que o sistema deve ser desenvolvido uti
 
 Este requisito não funcional estabelece que o sistema deve utilizar um banco de dados NoSQL, especificamente o MongoDB. O MongoDB é um banco de dados NoSQL amplamente utilizado que utiliza um modelo de dados flexível baseado em documentos JSON, o que o torna ideal para aplicações com requisitos de escalabilidade e flexibilidade de esquema.
 
-### RNF 03: Autenticação
+### RNF 04: Autenticação
 
 Este requisito não funcional estabelece que o sistema deve implementar um sistema de autenticação seguro para garantir a segurança dos dados e proteger o acesso não autorizado às funcionalidades do sistema. Isso envolve a implementação de um sistema de login e senha, com técnicas de criptografia adequadas para proteger as credenciais dos usuários durante a transmissão e armazenamento.
 
