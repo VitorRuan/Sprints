@@ -1,13 +1,13 @@
 <span id="topo">
 
-<h1 align="center">Sprint 1: 15/05/2024 a /05/2024</h1>
+<h1 align="center">Sprint 2: 15/05/2024 a 10/06/2024</h1>
 
 <p align="center">
     <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
     <a href="#entregas">Entregas</a> &nbsp |&nbsp &nbsp
 </p>
 
-Nesta primeira sprint, nosso foco será no desenvolvimento das funcionalidades fundamentais para o gerenciamento de registros de professores no sistema. Essas funcionalidades incluem salvar, ler, atualizar e deletar registros. Ao agrupar essas tarefas em uma única sprint, buscamos estabelecer uma base sólida para o sistema, fornecendo funcionalidades essenciais que serão aprimoradas e expandidas nas iterações subsequentes. A colaboração entre os membros da equipe será fundamental para alcançar os objetivos propostos dentro do prazo estimado.
+Nesta segunda sprint, nosso foco está na implementação das funcionalidades essenciais para a gestão eficiente de disciplinas e cursos no sistema. A colaboração entre os membros da equipe será crucial para o sucesso desta etapa do projeto, garantindo que todas as tarefas sejam concluídas dentro do prazo estabelecido. Ao final desta sprint, esperamos ter um sistema funcional que permita à equipe administrativa cadastrar, atribuir e gerenciar disciplinas e cursos de forma eficaz, contribuindo para uma gestão acadêmica mais organizada e eficiente.
 
 <span id="objetivos">
     
